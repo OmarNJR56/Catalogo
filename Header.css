@@ -1,0 +1,28 @@
+header
+{
+    background-color: #8f0000d8;
+    color: white;
+    display: grid;
+    width: 100%;
+    font-size: 15px;
+}
+div
+{
+    display: grid;
+    grid-template-columns: 1fr auto auto auto auto;
+    grid-template-rows: 150px;
+    align-items: center;
+    grid-column-gap:  7px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.Izquierda a
+{
+    display: block;
+    background-image: url(Imagen/magua.png);
+    background-position: center;
+    background-size: cover;
+    width: 170px;               /* Ancho del enlace */  
+    height: 70px;   
+    background-repeat: no-repeat; 
+}

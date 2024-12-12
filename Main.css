@@ -1,0 +1,30 @@
+.jumbotron {  
+
+    background-image: url('https://media.istockphoto.com/id/1493574434/es/foto/el-coche-se-precipita-a-lo-largo-de-la-carretera-al-atardecer-vista-lateral-de-%C3%A1ngulo-bajo.jpg?s=612x612&w=0&k=20&c=ShzqUhviox4jicYi8z1qIfBJRk7KGKsd23fct6wrGUI='); /* Ruta de tu imagen de fondo */  
+    background-size: cover; /* Para cubrir todo el espacio del contenedor */  
+    background-position: center; /* Centra la imagen */  
+    background-repeat: no-repeat; /* Evita que la imagen se repita */  
+    padding: 20px; /* Espaciado interno para dar espacio entre el texto y los bordes */  
+    border-radius: 15px; /* Opcional: Esquinas redondeadas */  
+    margin: 0%; /* Espaciado superior e inferior del contenedor */  
+    height: 100%;
+    width: 100%;
+}  
+.Sup
+{  
+    text-shadow: 10px 6px 6px rgba(0, 0, 0, 0.5); /* Sombra ligera */  
+    color: #ffffff; /* Color del texto */  
+    background-color: #8f0000d8; /* Color de fondo */  
+    padding: 10px;
+    border-radius: 25px; /* Esquinas redondeadas */ 
+    text-align: center;
+}  
+
+p
+{
+    padding: 15px;
+    border-radius: 10px; /* Esquinas redondeadas */ 
+    background-color: #ffffffd8; /* Color de fondo */  
+    text-shadow: 4px 3px 7px rgba(0, 0, 0, 0.5); /* Sombra ligera */ 
+    box-shadow: 5px 10px 6px rgba(0, 0, 0, 0.1); /* Sombra alrededor del cuadro */  
+}
