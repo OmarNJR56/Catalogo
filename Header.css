@@ -6,15 +6,12 @@ header
     width: 100%;
     font-size: 15px;
 }
-div
+.HEA
 {
     display: grid;
     grid-template-columns: 1fr auto auto auto auto;
-    grid-template-rows: 150px;
-    align-items: center;
     grid-column-gap:  7px;
-    column-gap: 10px;
-    row-gap: 10px;
+
 }
 .Izquierda a
 {
@@ -25,4 +22,9 @@ div
     width: 170px;               /* Ancho del enlace */  
     height: 70px;   
     background-repeat: no-repeat; 
+}
+.Derecha
+{
+    align-content: center;
+    background-color: rgb(175, 37, 37);
 }
