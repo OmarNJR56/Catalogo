@@ -88,7 +88,7 @@ p
 
 .NI a
 {
-    background-image: url(https://pictures.dealer.com/c/carolinanissan/1020/d2d420bf5fe7ec7dbefc596c614dfbe0x.jpg?impolicy=downsize_bkpt&w=480);
+    background-image: url(https://incamotors-paginacorporativa-prod-archivos.s3.sa-east-1.amazonaws.com/variantes/imagenes/nissan-sentra-variante-qm1b18-1689056464464.png);
     display: block;
     background-position: center;
     background-size: contain;
@@ -96,4 +96,184 @@ p
     height: 500px;   
     background-repeat: no-repeat; 
     
+}
+
+
+
+.container {  
+    max-width: 400px;  
+    margin: auto;  
+}  
+
+h1 {  
+    font-size: 24px;  
+}  
+
+.toggle-checkbox {  
+    display: none; /* Oculta el checkbox */  
+}  
+
+.toggle-label {  
+    padding: 10px 15px;  
+    background-color: #8f0000d8;  
+    color: white;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    display: inline-block;  
+    margin-top: 10px;  
+}  
+
+.form-container {  
+    display: none; /* Oculta el contenedor del formulario por defecto */  
+    margin-top: 10px; /* Espaciado superior */  
+    padding: 10px;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+    background-color: #f9f9f9;  
+}  
+
+/* Muestra el formulario de inicio de sesión cuando el checkbox está seleccionado */  
+#toggleLogin:checked + .toggle-label + .form-container {  
+    display: block; /* Muestra el contenedor del formulario cuando el checkbox está marcado */  
+}  
+
+/* Muestra el formulario de registro cuando el checkbox está seleccionado */  
+#toggleRegister:checked + .toggle-label + .form-container {  
+    display: block; /* Muestra el contenedor del formulario cuando el checkbox está marcado */  
+}  
+
+label {  
+    display: block; /* Hacer que el label ocupe toda la línea */  
+    margin-bottom: 5px; /* Espacio debajo del label */  
+}  
+
+input, select {  
+    width: 100%; /* Hacer que los campos ocupen todo el ancho */  
+    padding: 8px;  
+    margin-bottom: 10px; /* Espacio entre campos */  
+    border: 1px solid #b7b7b7;  
+    border-radius: 4px;  
+}  
+
+button {  
+    background-color: #8f0000d8; /* Color de fondo */  
+    color: white; /* Color del texto */  
+    border: none;  
+    border-radius: 5px;  
+    padding: 10px; /* Espaciado interior */  
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */  
+    width: 100%; /* Hacer que el botón ocupe todo el ancho */  
+}  
+
+button:hover {  
+    background-color: #8f0000d8; /* Color de fondo al pasar el ratón */  
+}  
+
+
+
+
+
+
+
+.MARCAS {  
+    display: grid;  
+    grid-template-columns: auto auto auto auto; /* Ajusta el número de columnas automáticas */  
+    grid-template-rows:  auto ;
+    gap: 10px; /* Espacio entre los elementos */  
+    justify-items: center;
+    align-items: center;
+
+}  
+
+.Nisan, .volkswagen, .chevrolet, .alfa, .aston, .MMGG, .mazda, .toyota, .bmw, .porsche, .lamborghini, .ford, .acura, .honda, .mercedes, .audi {  
+    display: inline-block; /* Cambia de bloque para que se pueda hacer clic */  
+    width: 100px; /* Ajusta el tamaño según sea necesario */  
+    height: 100px; /* Ajusta el tamaño según sea necesario */  
+    background-size: contain; /* Ajusta el tamaño de la imagen dentro del enlace */  
+    background-repeat: no-repeat; /* Evita que la imagen se repita */  
+}  
+
+
+
+
+
+.Nisan 
+{
+    background-image: url(https://manuals.plus/wp-content/uploads/2022/04/Nissan-logo.png);
+}
+
+.volkswagen 
+{
+    background-image: url(https://myleanacademy.com/wp-content/uploads/2020/02/Volkswagen-logo.png);
+}
+
+.chevrolet  
+{
+    background-image: url(https://i.pinimg.com/originals/e1/34/06/e134063bcdee260fcb8f76d93dab2d56.png);
+}
+
+.alfa 
+{
+    background-image: url(https://1000marcas.net/wp-content/uploads/2019/12/logo-alfa-romeo.png);
+}
+
+.aston 
+{
+    background-image: url(https://logoeps.com/wp-content/uploads/2012/05/aston-martin-logo-vector-01.png);
+}
+
+.MMGG 
+{
+    background-image: url(https://1000marcas.net/wp-content/uploads/2021/10/MG-logo.png);
+}
+
+.mazda 
+{
+    background-image: url(https://www.element61.be/sites/default/files/styles/max_325x325/public/2024-05/Mazda.png.webp?itok=BdhP-C5y);
+}
+
+.toyota 
+{
+    background-image: url(https://1000logos.net/wp-content/uploads/2018/02/Toyota-logo.png);
+}
+
+.bmw 
+{
+    background-image: url(https://1000marcas.net/wp-content/uploads/2019/12/BMW-logo.png);
+}
+
+.porsche 
+{
+    background-image: url(https://1000marcas.net/wp-content/uploads/2019/12/Porsche-logo.png);
+}
+
+.lamborghini 
+{
+    background-image: url(https://1000marcas.net/wp-content/uploads/2020/01/Lamborghini-Logo.png);
+}
+
+.ford 
+{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Ford_logo_flat.svg/2560px-Ford_logo_flat.svg.png);
+}
+
+
+.acura 
+{
+    background-image: url(https://1000marcas.net/wp-content/uploads/2020/03/Logo-Acura.png);
+}
+
+.honda 
+{
+   background-image: url(https://cdn.worldvectorlogo.com/logos/honda-logo-4.svg);
+}
+
+.mercedes 
+{
+   background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Mercedes-Benz_Star_2022.svg/800px-Mercedes-Benz_Star_2022.svg.png);
+}
+
+.audi 
+{
+    background-image: url(https://media.printables.com/media/prints/321186/images/2772740_6ba3a5b5-a72c-4528-b5e1-d60caab08965/thumbs/cover/800x800/png/audi_logo-300x300.webp);
 }
