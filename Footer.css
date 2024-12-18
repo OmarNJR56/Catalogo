@@ -1,136 +1,82 @@
-footer
-{
-background-color: #8f0000d8;
-height: auto;
-width: auto;
+footer {  
+    background-color: rgba(143, 0, 0, 0.85); /* Color con opacidad */  
+    height: auto;  
+    width: 100%; /* Ancho completo */  
+    padding: 20px 0; /* Relleno superior e inferior */  
+    display: flex; /* Flexbox para alineación */  
+    flex-direction: column; /* Coloca elementos en columna */  
+    align-items: center; /* Centra el contenido */  
+}  
 
-}
+.PE {  
+    display: flex;   
+    justify-content: space-evenly;  
+    align-items: center;  
+    color: aliceblue;  
+    font-size: 1.5em; /* Tamaño relativo */  
+    width: 100%; /* Asegura que ocupe todo el ancho */  
+}  
 
-.PE
-{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    color: aliceblue;
-    font-size: 22PX;
-}
-
-.Name
-{
+.Name {  
     display: flex;  
     list-style: none;  
-    padding: 20px;  
-    margin: 0;   
-    gap: 20px; /* Espacio entre los elementos de la lista */  
-}
-
-
+    padding: 10px;  /* Reduce espacio */  
+    margin: 0 auto; /* Centra la lista */  
+    gap: 20px; /* Espacio entre los elementos */  
+}  
 
 .Name li {  
-    margin-right: 20px; /* Espacio entre los elementos de la lista */  
+    margin-right: 20px;   
 }  
 
 .Name li:last-child {  
-    margin-right: 0; /* Elimina el margen derecho del último elemento */  
+    margin-right: 0; /* Elimina margen del último elemento */  
 }  
 
+li a {  
+    color: rgb(158, 255, 255);  
+    text-decoration: none;  
+}  
 
+/* Estilo de los íconos de redes sociales */  
+.FA a, .IN a, .WH a, .YT a, .CE a {  
+    background-repeat: no-repeat;  
+    background-size: contain;  
+    width: 40px; /* Ancho del ícono */  
+    height: 40px; /* Ajusta la altura */  
+    display: inline-block; /* Permite alineación en línea */  
+}  
 
-
-li a 
-{
-    
-    color: rgb(158, 255, 255);
-    text-decoration: none;
-}
-.FA a
-{ 
+/* Íconos específicos */  
+.FA a {  
     background-image: url(https://images.vexels.com/media/users/3/223136/isolated/lists/984f500cf9de4519b02b354346eb72e0-icono-de-facebook-redes-sociales.png);  
-    background-repeat: no-repeat;  
-  /* Centrar imagen dentro del contenedor */  
-    background-size: contain;  
-    width: 40px; /* Ancho del ícono */  
-    height: 48px; /* Alto del ícono */
-    display: block;
-}
+}  
 
-.IN a
-{ 
+.IN a {  
     background-image: url(https://images.vexels.com/media/users/3/137198/isolated/lists/07f0d7b69ef071571e4ada2f4d6a053a-icono-de-instagram-colorido.png);  
-    background-repeat: no-repeat;  
-  /* Centrar imagen dentro del contenedor */  
-    background-size: contain;  
-    width: 40px; /* Ancho del ícono */  
-    height: 48px; /* Alto del ícono */
-    display: block;
-}
+}  
 
-.WH a
-{ 
+.WH a {  
     background-image: url(https://cdn.iconscout.com/icon/free/png-256/free-logo-whatsapp-9289809-7573062.png?f=webp);  
-    background-repeat: no-repeat;  
-  /* Centrar imagen dentro del contenedor */  
-    background-size: contain;  
-    width: 40px; /* Ancho del ícono */  
-    height: 48px; /* Alto del ícono */
-    display: block;
-}
+}  
 
-.YT a
-{ 
+.YT a {  
     background-image: url(https://images.vexels.com/media/users/3/137425/isolated/lists/f2ea1ded4d037633f687ee389a571086-logotipo-de-icono-de-youtube.png);  
-    background-repeat: no-repeat;  
-  /* Centrar imagen dentro del contenedor */  
-    background-size: contain;  
-    width: 40px; /* Ancho del ícono */  
-    height: 48px; /* Alto del ícono */
-    display: block;
-}
+}  
 
-.CE a
-{ 
+.CE a {  
     background-image: url(https://images.vexels.com/media/users/3/140928/isolated/lists/8d338f5acd60bfbc9b5fb1b208c8814f-icono-redondo-de-correo-electronico-contorneado.png);  
-    background-repeat: no-repeat;  
-  /* Centrar imagen dentro del contenedor */  
-    background-size: contain;  
-    width: 40px; /* Ancho del ícono */  
-    height: 48px; /* Alto del ícono */
-    display: block;
-}
-
-
-
-.novedades {  
-    background-color: #890202; /* Fondo blanco para el div */  
-    border: 1px solid #ccc; /* Borde gris claro */  
-    border-radius: 5px; /* Bordes redondeados */  
-    padding: 15px; /* Espacio interior */  
-    box-shadow: 0 2px 5px rgb(255, 255, 255); /* Sombra ligera */  
-    max-width: 95%; /* Ancho máximo */  
-    margin: auto; /* Centra el div horizontalmente */  
-    justify-items: center;
 }  
 
-.novedades h2 {  
-    font-size: 24px; /* Tamaño de fuente del encabezado */  
-    margin-bottom: 10px; /* Espacio inferior */  
-}  
+/* Media Queries para responsividad */  
+@media (max-width: 600px) {  
+    .PE {  
+        flex-direction: column; /* Coloca el contenido en columna para móviles */  
+        align-items: center; /* Centra elementos */  
+    }  
 
-.novedades ul {  
-    list-style-type: none; /* Elimina los puntos de la lista */  
-    padding: 0; /* Elimina el padding */  
-}  
-
-.novedades li {  
-    margin-bottom: 10px; /* Espacio entre los elementos de la lista */  
-}  
-
-.novedades a {  
-    text-decoration: none; /* Elimina subrayado */  
-    color: #ffffffd8; /* Color del texto del enlace */  
-}  
-
-.novedades a:hover {  
-    text-decoration: underline; /* Subrayado al pasar el ratón */  
-    color: #ffffffd8; /* Color del texto del enlace al pasar el ratón */  
+    .Name {  
+        flex-direction: column; /* Cambia la dirección de la lista a columna */  
+        gap: 10px; /* Espacio reducido entre elementos */  
+    }  
 }  
