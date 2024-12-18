@@ -1,0 +1,136 @@
+footer
+{
+background-color: #8f0000d8;
+height: auto;
+width: auto;
+
+}
+
+.PE
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: aliceblue;
+    font-size: 22PX;
+}
+
+.Name
+{
+    display: flex;  
+    list-style: none;  
+    padding: 20px;  
+    margin: 0;   
+    gap: 20px; /* Espacio entre los elementos de la lista */  
+}
+
+
+
+.Name li {  
+    margin-right: 20px; /* Espacio entre los elementos de la lista */  
+}  
+
+.Name li:last-child {  
+    margin-right: 0; /* Elimina el margen derecho del último elemento */  
+}  
+
+
+
+
+li a 
+{
+    
+    color: rgb(158, 255, 255);
+    text-decoration: none;
+}
+.FA a
+{ 
+    background-image: url(https://images.vexels.com/media/users/3/223136/isolated/lists/984f500cf9de4519b02b354346eb72e0-icono-de-facebook-redes-sociales.png);  
+    background-repeat: no-repeat;  
+  /* Centrar imagen dentro del contenedor */  
+    background-size: contain;  
+    width: 40px; /* Ancho del ícono */  
+    height: 48px; /* Alto del ícono */
+    display: block;
+}
+
+.IN a
+{ 
+    background-image: url(https://images.vexels.com/media/users/3/137198/isolated/lists/07f0d7b69ef071571e4ada2f4d6a053a-icono-de-instagram-colorido.png);  
+    background-repeat: no-repeat;  
+  /* Centrar imagen dentro del contenedor */  
+    background-size: contain;  
+    width: 40px; /* Ancho del ícono */  
+    height: 48px; /* Alto del ícono */
+    display: block;
+}
+
+.WH a
+{ 
+    background-image: url(https://cdn.iconscout.com/icon/free/png-256/free-logo-whatsapp-9289809-7573062.png?f=webp);  
+    background-repeat: no-repeat;  
+  /* Centrar imagen dentro del contenedor */  
+    background-size: contain;  
+    width: 40px; /* Ancho del ícono */  
+    height: 48px; /* Alto del ícono */
+    display: block;
+}
+
+.YT a
+{ 
+    background-image: url(https://images.vexels.com/media/users/3/137425/isolated/lists/f2ea1ded4d037633f687ee389a571086-logotipo-de-icono-de-youtube.png);  
+    background-repeat: no-repeat;  
+  /* Centrar imagen dentro del contenedor */  
+    background-size: contain;  
+    width: 40px; /* Ancho del ícono */  
+    height: 48px; /* Alto del ícono */
+    display: block;
+}
+
+.CE a
+{ 
+    background-image: url(https://images.vexels.com/media/users/3/140928/isolated/lists/8d338f5acd60bfbc9b5fb1b208c8814f-icono-redondo-de-correo-electronico-contorneado.png);  
+    background-repeat: no-repeat;  
+  /* Centrar imagen dentro del contenedor */  
+    background-size: contain;  
+    width: 40px; /* Ancho del ícono */  
+    height: 48px; /* Alto del ícono */
+    display: block;
+}
+
+
+
+.novedades {  
+    background-color: #890202; /* Fondo blanco para el div */  
+    border: 1px solid #ccc; /* Borde gris claro */  
+    border-radius: 5px; /* Bordes redondeados */  
+    padding: 15px; /* Espacio interior */  
+    box-shadow: 0 2px 5px rgb(255, 255, 255); /* Sombra ligera */  
+    max-width: 95%; /* Ancho máximo */  
+    margin: auto; /* Centra el div horizontalmente */  
+    justify-items: center;
+}  
+
+.novedades h2 {  
+    font-size: 24px; /* Tamaño de fuente del encabezado */  
+    margin-bottom: 10px; /* Espacio inferior */  
+}  
+
+.novedades ul {  
+    list-style-type: none; /* Elimina los puntos de la lista */  
+    padding: 0; /* Elimina el padding */  
+}  
+
+.novedades li {  
+    margin-bottom: 10px; /* Espacio entre los elementos de la lista */  
+}  
+
+.novedades a {  
+    text-decoration: none; /* Elimina subrayado */  
+    color: #ffffffd8; /* Color del texto del enlace */  
+}  
+
+.novedades a:hover {  
+    text-decoration: underline; /* Subrayado al pasar el ratón */  
+    color: #ffffffd8; /* Color del texto del enlace al pasar el ratón */  
+}  
