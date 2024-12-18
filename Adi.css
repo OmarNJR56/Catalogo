@@ -1,0 +1,51 @@
+.novedades {  
+    background-color: #890202;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+    padding: 15px;  
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.5); /* Sombra ligeramente transparente */  
+    max-width: 95%;  
+    margin: auto;  
+    display: flex; /* Flexbox para manejo de alineación */  
+    flex-direction: column; /* Coloca los elementos en columna */  
+    justify-content: center; /* Centra el contenido verticalmente */  
+}  
+
+.novedades h2 {  
+    font-size: 1.5em; /* Cambia a tamaño relativo */  
+    margin-bottom: 10px;  
+}  
+
+.novedades ul {  
+    list-style-type: none;  
+    padding: 0;  
+}  
+
+.novedades li {  
+    margin-bottom: 10px;  
+}  
+
+.novedades a {  
+    text-decoration: none;  
+    color: rgba(255, 255, 255, 0.85); /* Color del texto del enlace con opacidad */  
+}  
+
+.novedades a:hover {  
+    text-decoration: underline;  
+    color: rgba(255, 255, 255, 1); /* Color del texto del enlace al pasar el ratón */  
+}  
+
+/* Media queries para dispositivos más pequeños */  
+@media (max-width: 600px) {  
+    .novedades {  
+        padding: 10px; /* Reduce el padding en pantallas pequeñas */  
+    }  
+
+    .novedades h2 {  
+        font-size: 1.2em; /* Tamaño del encabezado más pequeño para móviles */  
+    }  
+
+    .novedades li {  
+        margin-bottom: 5px; /* Reduce el espacio entre elementos de lista */  
+    }  
+}  

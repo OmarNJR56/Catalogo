@@ -1,0 +1,64 @@
+header {  
+    background-color: rgba(143, 0, 0, 0.85); /* Color de fondo con opacidad */  
+    color: white;  
+    display: grid;  
+    width: 100%;  
+    font-size: 15px;  
+    padding: 10px; /* Espaciado interno del encabezado */  
+}  
+
+.HEA {  
+    display: grid;  
+    grid-template-columns: 1fr repeat(4, auto); /* Un primer columna flexible y 4 fijas */  
+    grid-column-gap: 7px;  
+    align-items: center; /* Centra verticalmente los elementos */  
+}  
+
+/* Estilo para la sección Izquierda que contiene el logo */  
+.Izquierda a {  
+    display: block;  
+    background-image: url(Imagen/magua.png);  
+    background-position: center;  
+    background-size: cover;  
+    width: 170px; /* Ancho del enlace */  
+    height: 70px;   
+    background-repeat: no-repeat;   
+}  
+
+/* Estilo para la sección Derecha */  
+.Derecha {  
+    justify-self: end; /* Alinea a la derecha */  
+    align-content: center;  
+    background-color: rgb(175, 37, 37);  
+    border-radius: 20px;   
+    padding: 10px; /* Espaciado interno para la sección Derecha */  
+}  
+
+/* Estilo para enlaces */  
+a {  
+    text-decoration: none;  
+    color: black;  
+}  
+
+/* Media Queries para responsividad */  
+@media (max-width: 768px) {  
+    .HEA {  
+        grid-template-columns: 1fr; /* Una columna para móviles */  
+        text-align: center; /* Centra el texto en móviles */  
+    }  
+
+    .Izquierda a {  
+        width: 100px; /* Ancho reducido para móviles */  
+        height: 50px; /* Altura reducida */  
+    }  
+
+    .Derecha {  
+        justify-self: center; /* Centra la sección Derecha en móviles */  
+        margin-top: 10px; /* Añade margen superior para separación */  
+    }  
+
+    header {  
+        padding: 10px 5px; /* Espaciado interno reducido en móviles */  
+        font-size: 14px; /* Tamaño de fuente reducido en móviles */  
+    }  
+} 
