@@ -26,6 +26,7 @@ p
     background-color: #ffffffd8; /* Color de fondo */  
     text-shadow: 4px 3px 7px rgba(0, 0, 0, 0.5); /* Sombra ligera */ 
     box-shadow: 5px 10px 6px rgba(0, 0, 0, 0.1); /* Sombra alrededor del cuadro */  
+    font-size: auto;
 }
 
 .MG 
@@ -37,10 +38,7 @@ p
     gap: 60px;
 }
 
-.ZS 
-{
- font-size: 10px;
-}
+
 
 
 .MG a
@@ -49,8 +47,8 @@ p
     display: block;
     background-position: center;
     background-size: contain;
-    width: 800px;               /* Ancho del enlace */  
-    height: 500px;   
+    width: 30em;               /* Ancho del enlace */  
+    height: 18em;   
     background-repeat: no-repeat; 
     
 }

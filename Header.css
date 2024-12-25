@@ -38,27 +38,4 @@ header {
 a {  
     text-decoration: none;  
     color: black;  
-}  
-
-/* Media Queries para responsividad */  
-@media (max-width: 768px) {  
-    .HEA {  
-        grid-template-columns: 1fr; /* Una columna para móviles */  
-        text-align: center; /* Centra el texto en móviles */  
-    }  
-
-    .Izquierda a {  
-        width: 100px; /* Ancho reducido para móviles */  
-        height: 50px; /* Altura reducida */  
-    }  
-
-    .Derecha {  
-        justify-self: center; /* Centra la sección Derecha en móviles */  
-        margin-top: 10px; /* Añade margen superior para separación */  
-    }  
-
-    header {  
-        padding: 10px 5px; /* Espaciado interno reducido en móviles */  
-        font-size: 14px; /* Tamaño de fuente reducido en móviles */  
-    }  
-} 
+}
